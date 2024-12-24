@@ -2,3 +2,44 @@
 ---
 
 @import "jekyll-theme-midnight";
+
+/* Ensure the header and navigation have no background */
+#header {
+    background-color: transparent; /* Or use a preferred color like #ffffff */
+    padding: 10px 0;
+  }
+  
+  #header nav {
+    background-color: transparent; /* Remove any background applied to nav */
+  }
+  
+  .social-bar {
+    display: flex;
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+    margin: 0;
+    gap: 15px; /* Space between items */
+    justify-content: center;
+    align-items: center;
+    background-color: transparent; /* Ensure no background for ul */
+  }
+  
+  /* Style for links (buttons in this case) */
+  .social-bar li a {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    border-radius: 5px; /* Rounded corners */
+    background-color: transparent; /* Remove button background */
+    text-decoration: none;
+    color: #333; /* Neutral text color */
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .social-bar li a:hover {
+    background-color: #007bff; /* Add a hover background color */
+    color: #fff; /* White text on hover */
+    transform: scale(1.1); /* Slight zoom */
+  }
+  
