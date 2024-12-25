@@ -42,6 +42,18 @@
     color: #fff; /* White text on hover */
     transform: scale(1.1); /* Slight zoom */
   }
+
+  @media (max-width: 768px) {
+    .social-bar {
+      flex-direction: column; /* Stack icons vertically */
+      align-items: center;   /* Center align them */
+    }
+  
+    .social-bar li {
+      margin-bottom: 10px; /* Add spacing between items */
+    }
+  }
+  
   
   .image-wrap .image-right {
     float: right;
