@@ -43,3 +43,11 @@
     transform: scale(1.1); /* Slight zoom */
   }
   
+  .image-wrap .image-right {
+    float: right;
+    margin-left: 15px;  /* Adjust spacing between image and text */
+    max-width: 30%;  /* Adjust image size */
+    height: auto;
+    border-radius: 15px;  /* This rounds the edges of the image */
+  }
+  

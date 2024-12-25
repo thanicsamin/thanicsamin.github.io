@@ -1,6 +1,11 @@
 ---
 layout: default
 ---
+
+<div class="image-wrap">
+  <img src="{{ site.baseurl }}/assets/images/Charles_River_Photo.jpg" alt="Thanic's Photo" class="image-right">
+</div>
+
 I am Thanic
 
 TODO: Photo. Positioning?
