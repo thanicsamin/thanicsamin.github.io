@@ -48,7 +48,7 @@
 
   @media (max-width: 768px) {
     .social-bar {
-      flex-direction: column; /* Stack icons vertically */
+      flex-direction: row; /* Stack icons vertically */
       align-items: center;   /* Center align them */
     }
   
