@@ -3,6 +3,7 @@ description: Mathematics PhD Student at Indiana University.
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-midnight
+favicon: /assets/images/favicon.ico
 
 remote_theme: pages-themes/midnight@v0.2.0
 plugins:
