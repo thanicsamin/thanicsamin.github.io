@@ -81,11 +81,21 @@
 
   @media (max-width: 768px) {
     .social-bar {
-      flex-direction: row; /* Stack icons vertically */
-      align-items: center;   /* Center align them */
+      flex-direction: row;
+      align-items: center;
     }
   
     .social-bar li {
+      margin-top: 10px;
+      margin-bottom: 10px; /* Add spacing between items */
+    }
+
+    .site-nav {
+      flex-direction: row;
+      align-items: center;
+    }
+  
+    .site-nav li {
       margin-top: 10px;
       margin-bottom: 10px; /* Add spacing between items */
     }
