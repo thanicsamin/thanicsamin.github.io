@@ -15,7 +15,7 @@
     // padding: 10px 10px 10px 10px;
     background-color: transparent; /* Remove any background applied to nav */
   }
-  
+
   .social-bar {
     display: flex;
     list-style: none; /* Remove bullet points */
@@ -27,7 +27,6 @@
     background-color: transparent; /* Ensure no background for ul */
   }
   
-  /* Style for links (buttons in this case) */
   .social-bar li a {
     display: flex;
     align-items: center;
@@ -48,54 +47,51 @@
 
   .site-nav {
     display: flex;
+    flex-wrap: nowrap; /* Default: single row on wide screens */
     justify-content: center;
     padding: 10px 15px;
-    border-radius: 5px; /* Rounded corners */
+    gap: 15px; /* Space between items */
+    list-style: none; /* Remove bullet points */
     background-color: transparent; /* Remove button background */
-    text-decoration: none;
-    color: #333; /* Neutral text color */
-    font-weight: bold;
-    transition: background-color 0.3s ease, transform 0.3s ease;
   }
 
   .site-nav li {
-    margin-right: 15px;
+      flex: 1 1 auto; /* Make items flexible for a single row */
+      text-align: center;
   }
 
   .site-nav li a {
-    display: flex;
-    align-items: center;
-    padding: 10px 15px;
-    border-radius: 5px; /* Rounded corners */
-    background-color: transparent; /* Remove button background */
-    text-decoration: none;
-    color: chrome; /* Neutral text color */
-    font-weight: bold;
-    transition: background-color 0.3s ease, transform 0.3s ease;
+      display: block;
+      padding: 10px 15px;
+      border-radius: 5px; /* Rounded corners */
+      background-color: transparent; /* Remove button background */
+      text-decoration: none;
+      text-align: center;
+      color: chrome; /* Neutral text color */
+      font-weight: bold;
+      transition: background-color 0.3s ease, transform 0.3s ease;
   }
 
   .site-nav a:hover {
-    color: #0077b5; /* Highlight color for hover effect */
+      color: yellow; /* Highlight color for hover effect */
   }
 
+  /* Media Query for Narrow Screens */
   @media (max-width: 768px) {
-    .social-bar {
-      flex-direction: row;
-      align-items: center;
-    }
-  
-    .social-bar li {
-      margin-top: 10px;
-      margin-bottom: 10px; /* Add spacing between items */
-    }
+      .site-nav,
+      .social-bar {
+          flex-wrap: wrap; /* Allow items to wrap into multiple rows */
+      }
 
-    .site-nav {
-      grid-template-columns: repeat(3, 1fr); /* First row has 3 items */
-    }
-    .site-nav li:nth-child(4),
-    .site-nav li:nth-child(5) {
-      grid-column: span 2; /* Last 2 items span across 2 columns */
-    }
+      .site-nav li,
+      .social-bar li {
+          flex: 1 1 45%; /* Two items per row on small screens */
+          text-align: center;
+      }
+
+      .site-nav {
+          gap: 10px; /* Adjust spacing for smaller screens */
+      }
   }
   
   .image-wrap .image-right {
