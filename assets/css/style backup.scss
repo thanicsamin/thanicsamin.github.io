@@ -8,11 +8,6 @@
     background-color: #ffffff; /* Or use a preferred color like #ffffff */
     padding: 10px;
   }
-
-  #wrapper {
-    background-color: #ffffff; /* Or use a preferred color like #ffffff */
-    padding: 10px;
-  }
   
   #header nav {
     display: block;
@@ -20,14 +15,7 @@
     // padding: 10px 10px 10px 10px;
     background-color: transparent; /* Remove any background applied to nav */
   }
-
-  #wrapper nav {
-    display: block;
-    text-align: center;
-    // padding: 10px 10px 10px 10px;
-    background-color: transparent; /* Remove any background applied to nav */
-  }
-
+  
   .social-bar {
     display: flex;
     list-style: none; /* Remove bullet points */
@@ -39,6 +27,7 @@
     background-color: transparent; /* Ensure no background for ul */
   }
   
+  /* Style for links (buttons in this case) */
   .social-bar li a {
     display: flex;
     align-items: center;
@@ -59,55 +48,56 @@
 
   .site-nav {
     display: flex;
-    list-style: none; /* Remove bullet points */
-    padding: 0;
-    margin: 0;
-    gap: 15px; /* Space between items */
     justify-content: center;
-    align-items: center;
-    background-color: transparent; /* Ensure no background for ul */
+    padding: 10px 15px;
+    border-radius: 5px; /* Rounded corners */
+    background-color: transparent; /* Remove button background */
+    text-decoration: none;
+    color: #333; /* Neutral text color */
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
   }
 
   .site-nav li {
-      flex: 1 1 auto;
-      flex-wrap: wrap;
-      text-align: center;
+    margin-right: 15px;
   }
 
   .site-nav li a {
-      display: block;
-      padding: 0px 0px;
-      border-radius: 5px; /* Rounded corners */
-      background-color: transparent; /* Remove button background */
-      text-decoration: none;
-      text-align: center;
-      color: chrome; /* Neutral text color */
-      font-weight: bold;
-      transition: background-color 0.3s ease, transform 0.3s ease;
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    border-radius: 5px; /* Rounded corners */
+    background-color: transparent; /* Remove button background */
+    text-decoration: none;
+    color: chrome; /* Neutral text color */
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
   }
 
   .site-nav a:hover {
-      color: yellow; /* Highlight color for hover effect */
+    color: #0077b5; /* Highlight color for hover effect */
   }
 
-  /* Media Query for Narrow Screens */
   @media (max-width: 768px) {
-      .site-nav {
-        flex-direction: row;
-        flex-wrap: wrap; 
-      }
-      .social-bar {
-        flex-direction: row;
-      }
+    .social-bar {
+      flex-direction: row;
+      align-items: center;
+    }
+  
+    .social-bar li {
+      margin-top: 10px;
+      margin-bottom: 10px; /* Add spacing between items */
+    }
 
-      .site-nav li {
-        margin-top: 10px;
-        margin-bottom: 10px; /* Add spacing between items */
-      }
-      .social-bar li {
-        margin-top: 10px;
-        margin-bottom: 10px; /* Add spacing between items */
-      }
+    .site-nav {
+      flex-direction: row;
+      align-items: center;
+    }
+  
+    .site-nav li {
+      margin-top: 10px;
+      margin-bottom: 10px; /* Add spacing between items */
+    }
   }
   
   .image-wrap .image-right {
@@ -116,4 +106,11 @@
     max-width: 30%;  /* Adjust image size */
     height: auto;
     border-radius: 15px;  /* This rounds the edges of the image */
+  }
+
+  .equalize-text {
+    font-size: 14px; /* Set a consistent font size */
+    line-height: 1.5; /* Set a consistent line height */
+    text-align: justify; /* Optionally, align text for consistency */
+    margin: 0px 0px 10px 0px /* Add uniform spacing */
   }
