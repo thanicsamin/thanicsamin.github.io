@@ -2,6 +2,8 @@
 layout: default
 ---
 
+# About Me
+
 <div class="image-wrap">
   <img src="{{ site.baseurl }}/assets/images/Charles_River_Photo.jpg" alt="Thanic's Photo" class="image-right">
 </div>
