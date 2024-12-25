@@ -3,18 +3,18 @@
 @import "rouge-base16-dark.scss";
 
 body {
-  padding:0px 0 20px 0px;
+  padding:0px 0 0px 0px;
   margin: 0px;
   font:14px/1.5 "OpenSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#f0e7d5;
+  color:#424C55;
   font-weight: normal;
-  background: #252525;
+  background: #F5EDF0;
   background-attachment: fixed !important;
-  background: linear-gradient(#2a2a29, #1c1c1c);
+  //background: linear-gradient(#2a2a29, #1c1c1c);
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color:#e8e8e8;
+  color:#424C55;
   margin:0 0 10px;
   font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
@@ -38,7 +38,7 @@ h2 {
 }
 
 h4, h5, h6 {
-  color:#e8e8e8;
+  color:#3D2C2E;
 }
 
 h3 {
@@ -46,16 +46,16 @@ h3 {
   line-height: 24px;
   font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif !important;
   font-weight: normal;
-  color: #b6b6b6;
+  color: #3D2C2E;
 }
 
 a {
-  color:#ffcc00;
-  font-weight:400;
+  color:#886F68;
+  font-weight:600;
   text-decoration:none;
 
   &:hover {
-    color: #ffeb9b;
+    color: orange;
   }
 }
 
@@ -156,74 +156,56 @@ dt {
 
 #header {
   z-index: 100;
-  left:0;
-  top: 0px;
-  height: 60px;
+  bottom: 0px;
+  height: 40px;
   width: 100%;
   position: fixed;
-  background: url(../images/nav-bg.gif) #353535;
-  border-bottom: 4px solid #434343;
+  background: #F5EDF0;
   box-shadow: 0px 1px 3px rgba(0,0,0,.25);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   nav {
     max-width: 650px;
-    margin: 0 auto;
-    padding: 0 10px;
-    background: blue;
-    margin: 6px auto;
+    background: transparent;
+    width: 100%;
 
     ul {
       list-style-type: none;
-      margin: 0;
-      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
 
       li {
         font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-weight: normal;
         list-style: none;
-        display: inline;
+        display: flex;
         color: white;
-        line-height: 50px;
+        line-height: 0px;
         text-shadow: 0px 1px 0px rgba(0,0,0,.2);
         font-size: 14px;
 
         a {
           color: white;
-          border: 1px solid #5d910b;
-          background: linear-gradient(#93bd20, #659e10);
+          border: 1px solid #D1CCDC;
+          background: #D1CCDC;
           border-radius: 2px;
-          box-shadow: inset 0px 1px 0px rgba(255,255,255,.3), 0px 3px 7px rgba(0,0,0,.7);
-
-          background-color: #93bd20;
-          padding: 10px 12px;
-          margin-top: 6px;
-          line-height:14px;
-          font-size:14px;
+          background-color: #D1CCDC;
+          padding: 4px 4px;
+          line-height:4px;
+          font-size:11px;
           display:inline-block;
           text-align:center;
+          margin-top: 20px;
 
           &:hover {
-            background: linear-gradient(#749619, #527f0e);
-            background-color: #659e10;
-            border: 1px solid #527f0e;
-            box-shadow: inset 0px 1px 1px rgba(0,0,0,.2), 0px 1px 0px rgba(0,0,0,.0);
+            border: 1px solid #886F68;
+            background: #886F68;
+            border-radius: 2px;
+            background-color: #886F68;
           }
-        }
-
-        &.fork {
-          float: left;
-          margin-left: 0px;
-        }
-
-        &.downloads {
-          float: right;
-          margin-left: 6px;
-        }
-
-        &.title {
-          float: right;
-          margin-right: 10px;
-          font-size: 11px;
         }
       }
     }
@@ -251,7 +233,7 @@ section {
     }
 
     p {
-      color: #d7cfbe;
+      color: #886F68;
       font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
       font-weight: normal;
       font-size: 18px;
