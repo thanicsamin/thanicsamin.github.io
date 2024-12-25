@@ -10,7 +10,7 @@ layout: default
 
 
 <div class="equalize-text">
-  I'm a second-year PhD student at Indiana University in Bloomington, where I'm part of Matthias Strauch's Number Theory group. I earned my undergraduate degree from the Hong Kong University of Science and Technology, working under the guidance of Professor Ivan Chi Ho Ip. Prior to that, I briefly studied Electrical Engineering at Dhaka University.
+  I'm a second-year PhD student at Indiana University in Bloomington, where I'm part of Matthias Strauch's Number Theory group. I earned my undergraduate degree from the Hong Kong University of Science and Technology, working under the guidance of Professor Ivan Chi-Ho Ip. Prior to that, I briefly studied Electrical Engineering at Dhaka University.
 </div>
 
 <div class="equalize-text">
