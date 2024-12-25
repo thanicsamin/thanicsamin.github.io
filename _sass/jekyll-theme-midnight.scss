@@ -168,12 +168,19 @@ dt {
 
   nav {
     background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0 auto;
 
     ul {
       list-style-type: none;
       display: flex;
       justify-content: center;
       align-items: center;
+      padding: 0;
+      margin: 0;
 
       li {
         font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -196,7 +203,6 @@ dt {
           font-size:11px;
           display:inline-block;
           text-align:center;
-          margin-top: 20px;
 
           &:hover {
             border: 1px solid #886F68;
