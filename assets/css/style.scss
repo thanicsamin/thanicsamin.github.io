@@ -90,13 +90,11 @@
     }
 
     .site-nav {
-      flex-direction: row;
-      align-items: center;
+      grid-template-columns: repeat(3, 1fr); /* First row has 3 items */
     }
-  
-    .site-nav li {
-      margin-top: 10px;
-      margin-bottom: 10px; /* Add spacing between items */
+    .site-nav li:nth-child(4),
+    .site-nav li:nth-child(5) {
+      grid-column: span 2; /* Last 2 items span across 2 columns */
     }
   }
   
