@@ -4,9 +4,10 @@
 @import "jekyll-theme-midnight";
 
 /* Ensure the header and navigation have no background */
-#header {
-    background-color: transparent; /* Or use a preferred color like #ffffff */
+  #header {
+    background-color: #ffffff; /* Or use a preferred color like #ffffff */
     padding: 10px;
+    height: auto;
   }
   
   #header nav {
@@ -46,6 +47,32 @@
     transform: scale(1.1); /* Slight zoom */
   }
 
+  .site-nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px 15px;
+    border-radius: 5px; /* Rounded corners */
+    background-color: transparent; /* Remove button background */
+    text-decoration: none;
+    color: #333; /* Neutral text color */
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+
+  .site-nav li {
+    margin-right: 15px;
+  }
+
+  .site-nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+
+  .site-nav a:hover {
+    color: #0077b5; /* Highlight color for hover effect */
+  }
+
   @media (max-width: 768px) {
     .social-bar {
       flex-direction: row; /* Stack icons vertically */
@@ -57,7 +84,10 @@
       margin-bottom: 10px; /* Add spacing between items */
     }
   }
-  
+
+  .wrapper {
+    padding-top: 70px;
+  }
   
   .image-wrap .image-right {
     float: right;
@@ -67,10 +97,10 @@
     border-radius: 15px;  /* This rounds the edges of the image */
   }
 
-.equalize-text {
+  .equalize-text {
     font-size: 14px; /* Set a consistent font size */
     line-height: 1.5; /* Set a consistent line height */
     text-align: justify; /* Optionally, align text for consistency */
     margin: 0px 0px 10px 0px /* Add uniform spacing */
-}
+  }
   

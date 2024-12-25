@@ -20,26 +20,33 @@
     {% include head-custom.html %}
   </head>
   <body>
-      <div id="header">
-        <nav>
-          <ul class="social-bar">
-            <li>
-              <a href="https://www.linkedin.com/in/thanic-samin-bb4830150/" target="_blank">
-                <i class="fab fa-linkedin"></i> LinkedIn
-              </a>
-            </li>
-            <li>
-              <a href="https://www.github.com/thanicsamin/" target="_blank">
-                <i class="fab fa-github"></i> GitHub
-              </a>
-            </li>
-          </ul>
-        </nav>
-      </div><!-- end header -->
-
-
+    <div id="header">
+      <nav>
+        <ul class="social-bar">
+          <li>
+            <a href="https://www.linkedin.com/in/thanic-samin-bb4830150/" target="_blank">
+              <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+          </li>
+          <li>
+            <a href="https://www.github.com/thanicsamin/" target="_blank">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+          </li>
+        </ul>
+      </nav>
+       <!-- Add site navigation links here -->
+      <nav>
+        <ul class="site-nav">
+          <li><a href="/">About Me</a></li>
+          <li><a href="/lecture-notes/">Lecture Notes</a></li>
+          <li><a href="/programming/">Programming</a></li>
+          <li><a href="/awards/">Awards</a></li>
+          <li><a href="/contact/">Contact</a></li>
+        </ul>
+      </nav>
+    </div><!-- end header -->
     <div class="wrapper">
-
       <section>
         <div id="title">
           <h1>{{ site.title | default: site.github.repository_name }}</h1>
@@ -50,7 +57,6 @@
         {{ content }}
 
       </section>
-
     </div>
   </body>
 </html>
