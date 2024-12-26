@@ -194,10 +194,10 @@ dt {
 
         a {
           color: white;
-          border: 1px solid #D1CCDC;
-          background: #D1CCDC;
+          border: 1px solid #886F68;
+          background: #886F68;
           border-radius: 2px;
-          background-color: #D1CCDC;
+          background-color: #886F68;
           padding: 4px 4px;
           line-height:4px;
           font-size:11px;
@@ -205,10 +205,10 @@ dt {
           text-align:center;
 
           &:hover {
-            border: 1px solid #886F68;
-            background: #886F68;
+            border: 1px solid orange;
+            background: orange;
             border-radius: 2px;
-            background-color: #886F68;
+            background-color: orange;
           }
         }
       }
