@@ -23,4 +23,4 @@ permalink: /
   As a former competitive programmer with the Dhaka University team, [DU_FlareBlitz](https://www.facebook.com/photo/?fbid=1171488216349870&set=a.146688232163212), I have a strong background in C++. I'm passionate about programming and enjoy creating mathematical animations using the Manim library in Python. I'm proficient in SageMath and am currently learning Rust, drawn to its promise of memory safety.
 
 {: style="text-align: justify" }
-  I have a deep appreciation for math olympiads. I used to participate in Math Olympiads when I was in high school, and after my graduation I was involved with training students. I believe olympiads are a fun and exciting way to get started with mathematics.
+  I have a deep appreciation for math olympiads. I used to participate in math olympiads when I was in high school, and after my graduation I was involved with training students. I believe olympiads are a fun and exciting way to get started with mathematics.
