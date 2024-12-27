@@ -6,6 +6,8 @@ permalink: /lecture-notes/
 
 ## Lecture Notes
 
+These should be automatically updated. If they're not, please let me know so that I can fix the issue.
+
 ### Fall 2024
 
 - [M601 Algebraic Number Theory](https://drive.google.com/file/d/13gV-ixR-SStNyhOXbcheeiwOTEke6BAu/view?usp=sharing)

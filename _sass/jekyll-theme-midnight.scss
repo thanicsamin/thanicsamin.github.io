@@ -67,7 +67,11 @@ a small {
 }
 
 ul{
-  list-style-image:url('../images/bullet.png');
+  list-style-image:url('../images/bullet.svg');
+}
+
+ul::marker {
+  font-size: 1px;
 }
 
 strong {
