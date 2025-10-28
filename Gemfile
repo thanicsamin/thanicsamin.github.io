@@ -5,4 +5,4 @@ source "https://rubygems.org"
 gemspec
 
 gem "github-pages", group: :jekyll_plugins
-gem "erb"2
+gem "erb"
