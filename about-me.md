@@ -6,7 +6,9 @@ permalink: /
 
 ## About Me
 
-![Thanic's Photo]({{ site.baseurl }}/assets/images/Charles_River_Photo.jpg){: .align-right }
+<div class="image-wrap">
+  <img src="{{ site.baseurl }}/assets/images/Charles_River_Photo.jpg" alt="Thanic's Photo" class="image-right">
+</div>
 
 {: style="text-align: justify" }
   I'm a third-year PhD student at Indiana University in Bloomington. My advisor is [Matthias Strauch](https://mstrauch.pages.iu.edu). I earned my undergraduate degree from the Hong Kong University of Science and Technology, working under the guidance of [Ivan Chi-Ho Ip](https://www.math.hkust.edu.hk/~ivanip/). Prior to that, I briefly studied Electrical Engineering at Dhaka University.
