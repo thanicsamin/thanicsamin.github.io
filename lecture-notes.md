@@ -6,7 +6,7 @@ permalink: /lecture-notes/
 
 ## Lecture Notes
 
-You can find all my lecture notes in [Overleaf](https://www.overleaf.com/read/dwxnwpfptrsh#be8aae)
+You can find all my lecture notes in [Overleaf](https://www.overleaf.com/read/dwxnwpfptrsh#be8aae).
 
 {: style="text-align: justify" }
 I type my lecture notes using VSCode in [LaTeX-Workshop](https://github.com/James-Yu/LaTeX-Workshop). I use the [HyperSnips](https://github.com/Oskar-Idland/hsnips) extension to create snippets that lets me type lecture notes fast. I use the [GlassIt](https://github.com/hikarin522/GlassIt-VSC) extension to make my editor transparent, as I believe the editor looks more beautiful that way.

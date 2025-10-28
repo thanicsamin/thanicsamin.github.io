@@ -11,10 +11,7 @@ permalink: /
 </div>
 
 {: style="text-align: justify" }
-  I'm a third-year PhD student at Indiana University in Bloomington. My advisor is [Matthias Strauch](https://mstrauch.pages.iu.edu). I earned my undergraduate degree from the Hong Kong University of Science and Technology, working under the guidance of [Ivan Chi-Ho Ip](https://www.math.hkust.edu.hk/~ivanip/). Prior to that, I briefly studied Electrical Engineering at Dhaka University.
-
-{: style="text-align: justify" }
-  I am currently working on representation theory of Lie Algebras.
+  I'm a third-year PhD student at Indiana University in Bloomington. My advisor is [Dr. Matthias Strauch](https://mstrauch.pages.iu.edu). I earned my undergraduate degree from the Hong Kong University of Science and Technology, working under the guidance of [Ivan Chi-Ho Ip](https://www.math.hkust.edu.hk/~ivanip/). Prior to that, I briefly studied Electrical Engineering at Dhaka University.
 
 {: style="text-align: justify" }
   I type my lecture notes using LaTeX directly in class. The lecture notes are publicly available [here](/lecture-notes/).
