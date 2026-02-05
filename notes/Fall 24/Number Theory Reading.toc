@@ -1,9 +1,0 @@
-\contentsline {section}{\numberline {1}Thursday, 9/12/2024, Representation of \(\mathfrak {sl}_2(\mathbb {F})\) by Hechi}{1}{}%
-\contentsline {section}{\numberline {2}Thursday, 9/19/2024, Representation of \(\mathfrak {sl}_2(\mathbb {F})\) by Hechi}{4}{}%
-\contentsline {section}{\numberline {3}Thursday, 9/26/2024, Root Systems by Zoia}{7}{}%
-\contentsline {section}{\numberline {4}Thursday, 10/3/2024, Simple Roots by Zoia}{9}{}%
-\contentsline {section}{\numberline {5}Thursday, 10/17/2024, Weyl Group, Irr. Root System by Zoia}{10}{}%
-\contentsline {section}{\numberline {6}Thursday, 10/24/2024, Decomposing into Irr. by Hyeonmin}{12}{}%
-\contentsline {section}{\numberline {7}Thursday, 10/31/2024, Irr. rootot System by Hyeonmin}{14}{}%
-\contentsline {subsection}{\numberline {7.1}12.2 Automorphism}{17}{}%
-\contentsline {section}{\numberline {8}Thursday, 12/5/2024, Cartan Subalgebras (CSA) by Rostyslav}{18}{}%
